@@ -71,8 +71,8 @@ print(eriks_lottery_numbers)
 
 # 4. Get the species of Avril's pet Monty
 
-# avrils_pet_monty_species = users['Avril']['pets'][0]
-# print(avrils_pet_monty_species)
+avrils_pet_monty_species = users['Avril']['pets'][0]
+print(avrils_pet_monty_species)
 
 # 5. Get the smallest of Erik's lottery numbers
 
@@ -81,9 +81,9 @@ print(smallest_erik_lottery_number)
 
 # 6. Return an list of Avril's lottery numbers that are even
 
-# avrils_lottery_numbers = users['Avril']['lottery_numbers']
-# avrils_lottery_numbers.sort()
-# print(avrils_lottery_numbers)
+avrils_lottery_numbers = users['Avril']['lottery_numbers']
+avrils_lottery_numbers.sort()
+print(avrils_lottery_numbers)
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 
@@ -103,5 +103,5 @@ users['Erik']['home_town'] = 'Edinbrugh'
 
 # 10. Add another person to the users dictionary
 
-# users['Cammy'] = 
+users['Cammy'] = 
 
